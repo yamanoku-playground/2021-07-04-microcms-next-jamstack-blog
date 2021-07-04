@@ -13,7 +13,7 @@ export default function DetailId({ detail }) {
         <div>{detail.tag}</div>
         <div>{detail.createdDate}</div>
         <div>
-          <a href={detail.url} target="_blank">Detail Link</a>
+          <a href={detail.url} target="_blank" rel="noreferrer">Detail Link</a>
         </div>
         {detail.details ? (
           <div
